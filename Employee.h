@@ -9,7 +9,9 @@ using namespace std;
 class Employee
 {
 	char* emp_name; 
-	//Add Data Members here
+	Project **proj;
+	Address add;
+	int np;
 	
 public:
 	Employee(char* name, const Address&);
